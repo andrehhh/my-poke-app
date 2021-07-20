@@ -62,8 +62,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/my-pokemons" className={navbarLinksStyle}>
-                My Pokemons
+              <Link to="/my-pokemon-list" className={navbarLinksStyle}>
+                My Pokemon List
               </Link>
             </li>
           </ul>

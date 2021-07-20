@@ -18,7 +18,7 @@ const MyPokemonList = () => {
     <PokemonListSkeleton currentTab="my-pokemons">
       <Container>
         <div className="header">
-          <div className="title">My Pokemons</div>
+          <div className="title">My Pokemon List</div>
           <div className="totals">
             Total pokemons: {myPokemons && myPokemons.length}
           </div>
