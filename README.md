@@ -12,7 +12,7 @@ This app is first created with `create-react-app`.
 - Eslint
 - Loadable
 - Emotion (css)
-- react-router-dom (BrowserRouter as Router, Switch, Route, useParams, Link)
+- react-router-dom (BrowserRouter as Router, Switch, Route, useParams, Link)\
 If there are more libraries and dependencies that I forgot to list here, my apologies.
 
 
