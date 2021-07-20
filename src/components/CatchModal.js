@@ -1,5 +1,5 @@
 import { css } from "@emotion/css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import CloseIcon from "@material-ui/icons/Close";
 
@@ -26,10 +26,17 @@ const CatchModal = () => {
     }
   };
 
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, []);
+
   return (
     <div
       className={css`
-        height: 100%;
+        height: 100vh;
         width: 100%;
         position: absolute;
         top: 0;
