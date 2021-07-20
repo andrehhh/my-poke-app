@@ -116,7 +116,7 @@ const PokemonListSkeleton = ({ currentTab, children }) => {
             to="/my-pokemon-list"
             className={currentTab === "my-pokemons" ? "active" : "inactive"}
           >
-            My Pokemon List
+            My Pokemons
           </Link>
         </div>
         <div className="body">{children}</div>
