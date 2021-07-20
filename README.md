@@ -35,7 +35,7 @@ The Pokemon Detail page consists of an image of a larger scale, the name of the 
 
 The moves list consists of the pokemon's moves which will initially load 15 moves. Clicking the show more button will add 15 more moves to the list until there are no more moves, the button will disappear.
 
-On the bottom right corner, there is a red button which enables the user to catch the pokemon. After successfully catching the pokemon, the user will be able to set a nickname to the newly catched pokemon. Users are able to catch the same pokemon multiple times, but its nickname should be different. I have set the nickname check into a case-insensitive format, so 'john' and 'John' will be considered the same and will be rejected. There will be a notice to ask the user to change the nickname if the nickname does not meet the criteria and if nickname exists. The submit button is also disabled in this case.
+On the bottom right corner, there is a red button which enables the user to catch the pokemon (50% catch rate). After successfully catching the pokemon, the user will be able to set a nickname to the newly catched pokemon. Users are able to catch the same pokemon multiple times, but its nickname should be different. I have set the nickname check into a case-insensitive format, so 'john' and 'John' will be considered the same and will be rejected. There will be a notice to ask the user to change the nickname if the nickname does not meet the criteria and if nickname exists. The submit button is also disabled in this case.
 
 
 ### My Pokemons
