@@ -23,7 +23,7 @@ const PokemonListSkeleton = ({ currentTab, children }) => {
         className={css`
           .header {
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: 6fr 6fr;
             column-gap: 0.3rem;
 
             * {
