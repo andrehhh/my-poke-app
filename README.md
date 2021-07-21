@@ -1,5 +1,17 @@
 # My Poke App
 
+## Deployment
+The web app is deployed to Netlify.
+
+First, I ran the `npm run build` command to build the react app into static html files. The build file is then deployed into Netlify and can be accessed with the link below.
+
+https://andrehhh-my-poke-app.netlify.app/
+
+Note: I used Lighthouse to audit my webpage, took a screenshot of the result. Please feel free to check it in this repository.
+
+
+# Documentation
+
 ## Create React App
 This app is first created with `create-react-app`.
 
@@ -35,12 +47,3 @@ On the bottom right corner, there is a red button which enables the user to catc
 My Pokemon List page consists of all the pokemons that the user have collected. The pokemons that the user have collected is saved in the localStorage, so refreshing the page will not remove the list. On the top right corner, the user will be able to find the total number of pokemons they have collected. Each pokemon is also shown in a card, which has its nickname, image, ID, and name. Each pokemon has a button which enables the user to release the pokemon into the wild, removing it from the list. Clicking the card will redirect the user to the Pokemon Detail page of the corresponding pokemon.
 
 If there is no pokemon in the My Pokemon List, a notice will be shown and a button that redirects the user to the Pokemon List page will be available.
-
-## Deployment
-The web app is deployed to Netlify.
-
-First, I ran the `npm run build` command to build the react app into static html files. The build file is then deployed into Netlify and can be accessed with the link below.
-
-https://andrehhh-my-poke-app.netlify.app/
-
-Note: I used Lighthouse to audit my webpage, took a screenshot of the result. Please feel free to check it in this repository.
